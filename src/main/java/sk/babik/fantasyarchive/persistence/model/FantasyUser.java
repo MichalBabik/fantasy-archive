@@ -24,7 +24,7 @@ public class FantasyUser {
     @Column(name="password")
     private String password;
 
-    @Column(name="email")
+    @Column(name="email", unique = true, nullable = false)
     private String email;
 
     @Column(name="role_id")

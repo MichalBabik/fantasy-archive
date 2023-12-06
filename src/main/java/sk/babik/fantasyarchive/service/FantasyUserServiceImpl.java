@@ -44,6 +44,7 @@ public class FantasyUserServiceImpl implements FantasyUserService {
     public FantasyUser getFantasyUserByEmail(String email) {
         for (FantasyUser fantasyUser : getAllFantasyUsers()) {
             if (fantasyUser.getEmail().equals(email)) {
+
                 return fantasyUser;
             }
         }

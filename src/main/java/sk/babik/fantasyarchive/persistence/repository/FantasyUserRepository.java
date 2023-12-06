@@ -18,4 +18,5 @@ public interface FantasyUserRepository extends JpaRepository<FantasyUser, Long> 
 
     @Override
     Optional<FantasyUser> findById(Long aLong);
+
 }
